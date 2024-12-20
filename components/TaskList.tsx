@@ -20,9 +20,9 @@ export default function TaskList({ tasks }: TaskListProps) {
           </tr>
         </thead>
         <tbody>
-          {tasks.map((task) => (
-            <TaskItem key={task.id} task={task} />
-          ))}
+        {tasks.slice().reverse().map((task) => (
+          <TaskItem key={task.id} task={task} />
+        ))}
         </tbody>
       </table>
     </div>
