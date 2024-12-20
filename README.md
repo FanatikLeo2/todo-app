@@ -1,11 +1,13 @@
 ## Test task for MetalGo
 
+Clone project.
+
 Go to folder todo-app:
 ```bash
 cd todo-app
 ```
 
-Install depedependencies:
+Install dependencies:
 ```bash
 npm install
 ```
