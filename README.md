@@ -1,9 +1,15 @@
-## Тестовое задание для MetalGo
+## Test task for MetalGo
 
-## Клонируем проект
+Go to folder todo-app:
+```bash
+cd todo-app
 
-## Переходим в папку todo-app
+Install depedependencies:
+```bash
+npm install
 
-## Устанавливаем зависимости командой npm install 
+Run the development server:
+```bash
+npm run dev
 
-## Запускаем проект командой npm run dev
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
