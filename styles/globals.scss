@@ -1,0 +1,106 @@
+$primary-color: #4CAF50;
+$secondary-color: #8BC34A;
+$text-color: #333;
+$background-color: #f4f4f4;
+$border-radius: 4px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: $primary-color;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: $border-radius;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: $primary-color;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .btn-completed {
+    background-color: green;
+    color: white;
+  }
+  
+  .btn-pending {
+    background-color: red;
+    color: white;
+  }
